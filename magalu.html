@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magalu exercício</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+      body{
+        display: flex;
+        flex-direction: column;
+      }
+      .header{
+           background-color: rgb(54, 148, 255);
+           display: flex;
+           align-items: center;
+           padding: 20px;
+           justify-content: space-between;
+      }
+      a{
+        color: white;
+      }
+      span{
+        background-color: white;
+        color: rgb(54, 148, 255);
+      }
+      main{
+        gap: 30px;
+      }
+      .hero{
+        background-color: purple;
+      }
+      .produtos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+      }
+      .produtos img{
+        width: 150px;
+
+      }
+      .produtos h3{
+        color: gray;
+      }
+      .pr{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .figure{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+      }
+      .figure img{
+        width: 200px;
+      }
+      .footer{
+        background-color:  rgb(54, 148, 255);
+      }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <img src="img/logo-magalu.png" width="150">
+        <div class="nav">
+            <a href="">Ofertas do dia</a>
+            <a href="">Celulares</a>
+            <a href="">Eletrodomésticos</a>
+            <a href="">TV e Vídeo</a>
+            <a href="">Informática</a>
+            <span>Compre pelo tel: 0800 70 70 70</span>
+        </div>
+    </div>
+    <div class="main">
+        <div class="hero">
+            <img src="img/banner.png" alt="banner">
+        </div>
+        <div class="produtos">
+            <h1>Novidades que selecionamos</h1>
+            <div class="pr">
+                <div class="figure">
+                    <img src="img/produto1.jpg" alt="fritadeira">
+                </div>
+                <div class="figure">
+                    <img src="img/produto2.jpg" alt="iPhone">
+                </div>
+                <div class="figure">
+                    <img src="img/produto3.jpg" alt="Smartphone">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Todos os direitos reservados @nicolas.hhenrique7@gmail.com</p>
+    </div>
+    
+</body>
+</html>
